@@ -19,11 +19,24 @@ students = {
 
 
 
+# capital_cities = {
+#     "Kenya": ["Nairobi", "Mombasa", "Kisumu"],
+#     "Uganda": "Kampala",
+#     "South Africa": "Johannesburg",
+# }
+
+# print(capital_cities)
+# print(capital_cities["South Africa"])
+
+
+
+
+
 capital_cities = {
-    "Kenya": ["Nairobi", "Mombasa", "Kisumu"],
-    "Uganda": "Kampala",
-    "South Africa": "Johannesburg",
+    "kenya": ["Nairobi", "Mombasa", "Kisumu"],
+    "Nigeria": "Abuja",
+    "Uganda": 'Kampala',
 }
 
 print(capital_cities)
-print(capital_cities["South Africa"])
+print(capital_cities["Uganda"])

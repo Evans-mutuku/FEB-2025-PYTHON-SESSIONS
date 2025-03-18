@@ -3,6 +3,9 @@ students_ids = {0, 2, 3, 4, False, "John"}
 
 
 
+# employees_ids = {1,  2, 4, 5,8}
+# print(employees_ids)
+# employees_ids.add(89)
 
 
 
@@ -10,8 +13,10 @@ students_ids = {0, 2, 3, 4, False, "John"}
 
 
 
+account_names = {"John", "Jane","John", "Alice", "Bob", "Mary"}
+print(account_names)
+# print(account_names.pop())
 
 
-employees_ids = {1,  2, 4, 5,8}
-print(employees_ids)
-employees_ids.add(89)
+names = ("hello world")
+print(names)
