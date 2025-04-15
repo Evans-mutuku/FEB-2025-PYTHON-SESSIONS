@@ -7,7 +7,18 @@
 #     print(page.extract_text())
 
 
-file = open("automata.docx", "r")
+# file = open("automata.docx", "r")
+# data = file.read()
+
+# print(data)
+
+
+
+
+
+
+
+file = open("WEEK 4/example.txt", "r")
 data = file.read()
 
 print(data)
