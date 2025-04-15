@@ -1,11 +1,12 @@
 import math
-# from math import sqrt
 import random
-print(math.sqrt(17))
-print("Power of 2^3:", math.pow(2, 9.5))
+
+print("Square Root:", math.sqrt(12))
+print("Power of: ", math.pow(3, 5))
+
+
 
 # print a Random Number
+print("Random Number:", random.randint(1, 13))
 
-print("Random Number:", random.randint(1, 12))
-
-print("Random JsMammie is: ", random.choice(["Joy", "Naomi", "Judy", "Lynne", "Mercy"]))
+# print("Random JsMammie is: ", random.choice(["Joy", "Naomi", "Judy", "Lynne", "Mercy"]))
