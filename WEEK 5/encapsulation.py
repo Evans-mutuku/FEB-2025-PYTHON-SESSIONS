@@ -11,3 +11,15 @@ class SecretStash:
 
 stash = SecretStash()
 stash.take_chocolate()
+
+class Superhero:
+    def __init__(self, name, power, city):
+        self.name = name
+        self.power = power
+        self.city = city
+
+    def fight_crime(self):
+        print(f"{self.name} uses {self.power} to fight crime in {self.city}!")
+
+hero1 = Superhero("BoltMan", "Electric Shock", "Volt City")
+hero1.fight_crime()
